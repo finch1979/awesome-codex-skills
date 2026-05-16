@@ -1,0 +1,16 @@
+﻿[2026-05-16 19:54:50] Send error: System.Management.Automation.MethodInvocationException: 以 "1" 引數呼叫 "Send" 時發生例外狀況: "傳送郵件失敗。"
+System.Net.Mail.SmtpException: 傳送郵件失敗。
+System.IO.IOException: 無法從傳輸連接讀取資料: net_io_connectionclosed。
+[2026-05-16 19:56:57] Send error: System.Management.Automation.MethodInvocationException: 以 "1" 引數呼叫 "Send" 時發生例外狀況: "傳送郵件失敗。"
+System.Net.Mail.SmtpException: 傳送郵件失敗。
+System.IO.IOException: 無法從傳輸連接讀取資料: net_io_connectionclosed。
+[2026-05-16 20:17:50] Send error: System.Management.Automation.RemoteException:   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+[2026-05-16 20:18:08] Send error: System.Management.Automation.RemoteException:   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+[2026-05-16 21:02:32] Send error: System.Management.Automation.RemoteException:   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+[2026-05-16 21:50:35] curl exit code: 35
+[2026-05-16 21:50:35] curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - 因為撤銷伺服器已離線，無法完成撤銷檢查。
+[2026-05-16 21:50:35] Send error: System.Management.Automation.RuntimeException: curl 寄送失敗，exit code 35。
+curl: (35) schannel: next InitializeSecurityContext failed: CRYPT_E_REVOCATION_OFFLINE (0x80092013) - 因為撤銷伺服器已離線，無法完成撤銷檢查。
+
+[2026-05-16 21:53:09] curl exit code: 0
+[2026-05-16 21:53:09] 
