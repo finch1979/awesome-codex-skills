@@ -6,6 +6,14 @@ license: Complete terms in LICENSE.txt
 
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
 
+## WHAT THIS SKILL CAN DO / 這個 SKILL 能做什麼
+
+- Turn a loose prompt into a clear visual design philosophy saved as a `.md` file
+- Create original posters, covers, art boards, or other static visual pieces as `.pdf` or `.png`
+- Keep the output visual-first: composition, color, form, and typography carry the meaning more than paragraphs do
+- Build polished single-page designs by default, with an option to extend the same philosophy into multiple pages
+- Weave in subtle conceptual references without copying existing artists or copyrighted work
+
 Complete this in two steps:
 1. Design Philosophy Creation (.md file)
 2. Express by creating it on a canvas (.pdf file or .png file)
