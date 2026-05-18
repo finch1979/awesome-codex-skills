@@ -5,7 +5,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILL_INSTALLER = REPO_ROOT / "skill-installer" / "SKILL.md"
-EXPECTED_CHINESE_PHRASE = "我找一個superpower skill"
+EXPECTED_CHINESE_DISCOVERY_EXAMPLE = "我找一個superpower skill"
 
 
 class SkillInstallerMetadataTests(unittest.TestCase):
@@ -22,7 +22,7 @@ class SkillInstallerMetadataTests(unittest.TestCase):
 
         self.assertIsNotNone(description_line)
         self.assertIn("discover the right skill", description_line)
-        self.assertIn(EXPECTED_CHINESE_PHRASE, description_line)
+        self.assertIn(EXPECTED_CHINESE_DISCOVERY_EXAMPLE, description_line)
 
 
 if __name__ == "__main__":
