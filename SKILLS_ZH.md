@@ -6,8 +6,8 @@
 
 ## 總覽
 
-- 技能總數：880
-- 一般技能：48
+- 技能總數：881
+- 一般技能：49
 - Composio / Rube MCP 自動化技能：832
 
 ## 使用方式摘要
@@ -91,6 +91,7 @@
 | `template-skill` | 技能範本 | 建立新 skill 的起始範本，展示標準資料夾與 SKILL.md 結構。 | Replace with description of the skill and when Claude should use it. | `template-skill/SKILL.md` |
 | `skill-installer` | 技能安裝器 | 提供從 curated list 或 GitHub path 安裝 skill 到 Codex 的輔助腳本。 | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos). | `skill-installer/SKILL.md` |
 | `skill-creator` | 技能建立指南 | 指導如何建立有效的 Codex skill，包含 metadata、漸進式載入、腳本與參考資料。 | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations. | `skill-creator/SKILL.md` |
+| `superpower` | 超能力工作流 | 把多個 Codex skill 串接成一次協調執行的超級工作流，適合跨程式、溝通、研究、部署等多個領域的複雜目標。 | Unlock extraordinary productivity by combining multiple Codex skills into a single, coordinated workflow. Use when a user wants to accomplish a complex, multi-step goal that spans coding, communication, research, and deployment in one seamless run. | `superpower/SKILL.md` |
 
 ## Composio / Rube MCP 自動化技能
 
