@@ -12,7 +12,9 @@ EXPECTED_CHINESE_DISCOVERY_EXAMPLE = "我找一個superpower skill"
 
 class SkillInstallerMetadataTests(unittest.TestCase):
     def test_description_mentions_skill_discovery_and_superpower_request(self):
-        content = SKILL_INSTALLER.read_text(encoding="utf-8").lstrip("\ufeff")
+        content = SKILL_INSTALLER.read_text(encoding="utf-8")
+        if content.startswith("\ufeff"):
+            content = content[1:]
         match = re.search(r"^---\n(.*?)\n---", content, re.DOTALL | re.MULTILINE)
 
         self.assertIsNotNone(match)
@@ -21,7 +23,7 @@ class SkillInstallerMetadataTests(unittest.TestCase):
         self.assertIsInstance(frontmatter, dict)
         description = frontmatter.get("description")
         self.assertIsInstance(description, str)
-        self.assertIn("discover the right skill", description)
+        self.assertIn("finding the right skill", description)
         self.assertIn(EXPECTED_CHINESE_DISCOVERY_EXAMPLE, description)
 
 

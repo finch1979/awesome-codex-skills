@@ -1,6 +1,6 @@
 ---
 name: skill-installer
-description: Find, recommend, list, and install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to discover the right skill, browse available skills, says things like "我找一個superpower skill", install a curated skill, or install a skill from another repo (including private repos).
+description: Find, recommend, list, and install Codex skills into $CODEX_HOME/skills from curated lists or GitHub repo paths. Use when a user wants help finding the right skill, browsing available skills, says things like "我找一個superpower skill", or wants a curated skill or a skill from another repo installed (including private repos).
 metadata:
   short-description: Install curated skills from openai/skills or other repos
 ---
