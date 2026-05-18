@@ -149,7 +149,7 @@ Codex skills are modular instruction bundles that tell Codex how to execute a ta
 - [theme-factory/](./theme-factory/) - Create reusable theme tokens and palettes.
 - [video-downloader/](./video-downloader/) - Download and prepare videos for offline review.
 - [template-skill/](./template-skill/) - Starter template for building new skills.
-- [skill-installer/](./skill-installer/) - Helper scripts to install skills from curated lists or GitHub paths.
+- [skill-installer/](./skill-installer/) - Find, recommend, list, and install skills from curated lists or GitHub paths.
 - [skill-creator/](./skill-creator/) - Guidance for building effective Codex skills with progressive disclosure.
 
 ## Using Skills in Codex
